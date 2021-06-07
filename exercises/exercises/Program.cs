@@ -17,7 +17,7 @@ namespace exercises
 
             Console.WriteLine("Please guess a number between 1 and 10");
                 string result_value = Console.ReadLine();
-                result = Convert.ToInt32(result_value);
+                result = Convert.ToInt32(result_value); // added the variable string_result to stop endless loop
 
             if (result == Convert.ToInt32(randoN))
             {
